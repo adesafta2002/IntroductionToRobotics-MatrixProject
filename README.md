@@ -8,7 +8,7 @@
   
 # How To Play
   
-  The player controls a dot on a bordered plane. As it moves forward, it leaves a trail behind, resembling a moving snake. The snake has a specific length, so there is a moving tail a fixed number of units away from the head (the length increases when the snake eats the blinking dot). The player loses when the snake runs into the screen border (the walls can be disabled) or itself. The snake's speed increseases as you increase the difficulty. 
+  The player controls a dot on a bordered plane. As it moves forward, it leaves a trail behind, resembling a moving snake. The snake has a specific length, so there is a moving tail a fixed number of units away from the head (the length increases when the snake eats the blinking dot). The player loses when the snake runs into the screen border (the walls can be disabled) or itself. The snake's speed increseases as you increase the difficulty. On lower difficulties the food stayes on for longer and off for only a tiny amount and on higher difficulties it stayes off for longer and on for tiny amounts.
   
 # Menu
 
