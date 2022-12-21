@@ -935,11 +935,11 @@ void setFoodPosition() {
   while (!exit) {
     foodYPosition = random(1, 7);
     foodXPosition = random(1, 7);
+    exit = true;
     for (int i = maxSnakeLength - 1; i >= currentHeadPosition; i--) {
-      if (snakeXPositions[i] != foodXPosition || snakeYPositions[i] != foodYPosition) {
-        exit = true;
-      } else {
+      if (snakeXPositions[i] == foodXPosition && snakeYPositions[i] == foodYPosition) {
         exit = false;
+        break;
       }
     }
   }
